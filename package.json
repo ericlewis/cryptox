@@ -1,66 +1,67 @@
 {
-  "name": "cryptox",
-  "version": "1.2.1",
-  "description": "Common API wrapper for multiple crypto currency exchanges",
-  "main": "lib/index.js",
-  "engines": {
-    "node": ">= 4.5.x"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dutu/cryptox.git"
-  },
-  "keywords": [
-    "api",
-    "bitcoin",
-    "btc",
-    "eth",
-    "bitfinex",
-    "bitstamp",
-    "bitx",
-    "btc-e",
-    "btce",
-    "coinbase",
-    "crypto",
-    "exchange",
-    "open exchange rates",
-    "oxr",
-    "gdax",
-    "poloniex"
-  ],
-  "author": "Adrian Clinciu <adrian.clinciu@outlook.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dutu/cryptox/issues"
-  },
-  "homepage": "https://github.com/dutu/cryptox",
-  "dependencies": {
-    "btc-e": "*",
-    "moment": "^2.17.1",
-    "bignumber.js": "^4.0.0",
-    "lodash": "*",
-    "async": "^2.1.4",
-    "strscan": "*",
-    "bitx": "^1.5.0",
-    "bitfinex-api-node": "^0.2.9",
-    "gdax": "^0.3.0",
-    "bitstamp": "^1.0.0",
-    "poloniex-api-node": "^1.0.0",
-    "big.js": "^3.1.3",
-    "http-agent": "^0.1.2"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.16.0",
-    "babel-core": "^6.17.0",
-    "babel-preset-es2015": "^6.16.0",
-    "chai": ">= 1.6.1 < 2",
-    "chai-json-schema": ">=1.1.0",
-    "jsonfile": ">=2.0.0",
-    "mocha": ">=2.1.0",
-    "nock": ">=0.59.1",
-    "sinon": ">=1.12.2"
-  }
+	"name": "cryptox",
+	"version": "1.2.1",
+	"description": "Common API wrapper for multiple crypto currency exchanges",
+	"main": "lib/index.js",
+	"engines": {
+		"node": ">= 4.5.x"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dutu/cryptox.git"
+	},
+	"keywords": [
+		"api",
+		"bitcoin",
+		"btc",
+		"eth",
+		"bitfinex",
+		"bitstamp",
+		"bitx",
+		"btc-e",
+		"btce",
+		"coinbase",
+		"crypto",
+		"exchange",
+		"open exchange rates",
+		"oxr",
+		"gdax",
+		"poloniex"
+	],
+	"author": "Adrian Clinciu <adrian.clinciu@outlook.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/dutu/cryptox/issues"
+	},
+	"homepage": "https://github.com/dutu/cryptox",
+	"dependencies": {
+		"btc-e": "*",
+		"moment": "^2.17.1",
+		"bignumber.js": "^4.0.0",
+		"lodash": "*",
+		"async": "^2.1.4",
+		"strscan": "*",
+		"bitx": "^1.5.0",
+		"bitfinex-api-node": "^0.2.9",
+		"gdax": "^0.3.0",
+		"bitstamp": "^1.0.0",
+		"poloniex-api-node": "^1.0.0",
+		"big.js": "^3.1.3",
+		"http-agent": "^0.1.2",
+		"node-coinmarketcap": "^0.2.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.16.0",
+		"babel-core": "^6.17.0",
+		"babel-preset-es2015": "^6.16.0",
+		"chai": ">= 1.6.1 < 2",
+		"chai-json-schema": ">=1.1.0",
+		"jsonfile": ">=2.0.0",
+		"mocha": ">=2.1.0",
+		"nock": ">=0.59.1",
+		"sinon": ">=1.12.2"
+	}
 }
