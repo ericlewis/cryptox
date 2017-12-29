@@ -51,7 +51,8 @@
 		"poloniex-api-node": "^1.0.0",
 		"big.js": "^3.1.3",
 		"http-agent": "^0.1.2",
-		"node-coinmarketcap": "^0.2.0"
+		"node-coinmarketcap": "^0.2.0",
+		"node-fetch": "^1.7.3"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.16.0",
